@@ -1,0 +1,63 @@
+{
+    "k" : 8,
+    "topology" : [3, 4, 3, 2],
+    "populations" : [
+        { "type" : { "name" : "spike_source", "value" : 7.0 }, "label" : "input_0" },
+        { "type" : { "name" : "spike_source", "value" : 50.0 }, "label" : "input_1" },
+        { "type" : { "name" : "spike_source", "value" : 35.0 }, "label" : "input_2" },
+
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_0_0" },
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_0_1" },
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_0_2" },
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_0_3" },
+
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_1_0" },
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_1_1" },
+        { "type" : { "name" : "fs_neuron" }, "label" : "hidden_1_2" },
+
+        { "type" : { "name" : "fs_neuron" }, "label" : "output_0" },   
+        { "type" : { "name" : "fs_neuron" }, "label" : "output_1" }    
+    ],
+    
+    "projections": [
+        { "src" : 0, "dst" : 3, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 0, "dst" : 4, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 0, "dst" : 5, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 0, "dst" : 6, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+
+        { "src" : 1, "dst" : 3, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 1, "dst" : 4, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 1, "dst" : 5, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 1, "dst" : 6, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+
+        { "src" : 2, "dst" : 3, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 2, "dst" : 4, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 2, "dst" : 5, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+        { "src" : 2, "dst" : 6, "weight" : 0.5, "type" : "excitatory", "delay" : 1.0 },
+
+        { "src" : 3, "dst" : 7, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 3, "dst" : 8, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 3, "dst" : 9, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        
+        { "src" : 4, "dst" : 7, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 4, "dst" : 8, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 4, "dst" : 8, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+    
+        { "src" : 5, "dst" : 7, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 5, "dst" : 8, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 5, "dst" : 9, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        
+        { "src" : 6, "dst" : 7, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 6, "dst" : 8, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 6, "dst" : 9, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        
+        { "src" : 7, "dst" : 10, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 7, "dst" : 11, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+
+        { "src" : 8, "dst" : 10, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 8, "dst" : 11, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+
+        { "src" : 9, "dst" : 10, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 },
+        { "src" : 9, "dst" : 11, "weight" : 0.5, "type" : "excitatory", "delay" : 9.0 }
+    ]
+}

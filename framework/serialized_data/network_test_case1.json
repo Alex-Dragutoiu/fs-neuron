@@ -1,0 +1,15 @@
+{
+    "k" : 10,
+    "alpha" : 8,
+    "topology" : [2, 1],
+    "populations" : [
+        { "type" : { "name" : "spike_source", "values" : ["2.0"] }, "label" : "input_0" }, 
+        { "type" : { "name" : "spike_source", "values" : ["3.0"] }, "label" : "input_1" },
+        { "type" : { "name" : "fs_neuron", "bias" : "5.0" }, "label" : "output_0" }
+    ],
+    
+    "projections": [
+        { "src" : 0, "dst" : 2, "weight" : "0.5", "type" : "excitatory"},
+        { "src" : 1, "dst" : 2, "weight" : "0.5", "type" : "excitatory"}
+    ]
+}

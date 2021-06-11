@@ -1,0 +1,444 @@
+{
+    "k": 8,
+    "alpha": 2,
+    "topology": [
+        2,
+        16,
+        1
+    ],
+    "populations": [
+        {
+            "type": {
+                "name": "spike_source",
+                "values": [
+                    "0.0",
+                    "0.0",
+                    "1.0",
+                    "1.0"
+                ]
+            },
+            "label": "input_0"
+        },
+        {
+            "type": {
+                "name": "spike_source",
+                "values": [
+                    "0.0",
+                    "1.0",
+                    "0.0",
+                    "1.0"
+                ]
+            },
+            "label": "input_1"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "1.2281874"
+            },
+            "label": "hidden_0_0"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.00015873658"
+            },
+            "label": "hidden_0_1"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.7990313"
+            },
+            "label": "hidden_0_2"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.43468305"
+            },
+            "label": "hidden_0_3"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "0.3905603"
+            },
+            "label": "hidden_0_4"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "4.4294284e-05"
+            },
+            "label": "hidden_0_5"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "0.0"
+            },
+            "label": "hidden_0_6"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.04088476"
+            },
+            "label": "hidden_0_7"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "0.50475633"
+            },
+            "label": "hidden_0_8"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "1.7831968e-05"
+            },
+            "label": "hidden_0_9"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-9.882175e-05"
+            },
+            "label": "hidden_0_10"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.022078265"
+            },
+            "label": "hidden_0_11"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "0.0"
+            },
+            "label": "hidden_0_12"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-6.4951295e-05"
+            },
+            "label": "hidden_0_13"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.0017995371"
+            },
+            "label": "hidden_0_14"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-0.0006927205"
+            },
+            "label": "hidden_0_15"
+        },
+        {
+            "type": {
+                "name": "fs_neuron",
+                "bias": "-1.4614247"
+            },
+            "label": "output_0"
+        }
+    ],
+    "projections": [
+        {
+            "src": 0,
+            "dst": 2,
+            "weight": "0.08427741",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 3,
+            "weight": "0.29320425",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 4,
+            "weight": "0.7989104",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 5,
+            "weight": "0.43482515",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 6,
+            "weight": "0.3368277",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 7,
+            "weight": "2.4230163",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 8,
+            "weight": "0.10496566",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 9,
+            "weight": "0.31656364",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 10,
+            "weight": "0.16805784",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 11,
+            "weight": "0.31008345",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 12,
+            "weight": "0.09731281",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 13,
+            "weight": "0.016819846",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 14,
+            "weight": "0.37407547",
+            "type": "inhibitory"
+        },
+        {
+            "src": 0,
+            "dst": 15,
+            "weight": "0.15389474",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 16,
+            "weight": "2.1773927",
+            "type": "excitatory"
+        },
+        {
+            "src": 0,
+            "dst": 17,
+            "weight": "0.84600997",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 2,
+            "weight": "0.46246973",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 3,
+            "weight": "0.40867275",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 4,
+            "weight": "0.7991672",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 5,
+            "weight": "0.43476033",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 6,
+            "weight": "0.071239725",
+            "type": "inhibitory"
+        },
+        {
+            "src": 1,
+            "dst": 7,
+            "weight": "2.4246137",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 8,
+            "weight": "0.15581354",
+            "type": "inhibitory"
+        },
+        {
+            "src": 1,
+            "dst": 9,
+            "weight": "0.034395196",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 10,
+            "weight": "0.47159484",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 11,
+            "weight": "0.40584758",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 12,
+            "weight": "0.49847516",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 13,
+            "weight": "0.15815842",
+            "type": "inhibitory"
+        },
+        {
+            "src": 1,
+            "dst": 14,
+            "weight": "0.43209743",
+            "type": "inhibitory"
+        },
+        {
+            "src": 1,
+            "dst": 15,
+            "weight": "0.24298064",
+            "type": "excitatory"
+        },
+        {
+            "src": 1,
+            "dst": 16,
+            "weight": "2.1772876",
+            "type": "inhibitory"
+        },
+        {
+            "src": 1,
+            "dst": 17,
+            "weight": "0.8455858",
+            "type": "inhibitory"
+        },
+        {
+            "src": 2,
+            "dst": 18,
+            "weight": "1.3236206",
+            "type": "inhibitory"
+        },
+        {
+            "src": 3,
+            "dst": 18,
+            "weight": "0.5740758",
+            "type": "excitatory"
+        },
+        {
+            "src": 4,
+            "dst": 18,
+            "weight": "1.3136985",
+            "type": "inhibitory"
+        },
+        {
+            "src": 5,
+            "dst": 18,
+            "weight": "0.76323324",
+            "type": "inhibitory"
+        },
+        {
+            "src": 6,
+            "dst": 18,
+            "weight": "0.38406426",
+            "type": "inhibitory"
+        },
+        {
+            "src": 7,
+            "dst": 18,
+            "weight": "3.3932953",
+            "type": "excitatory"
+        },
+        {
+            "src": 8,
+            "dst": 18,
+            "weight": "0.4713061",
+            "type": "excitatory"
+        },
+        {
+            "src": 9,
+            "dst": 18,
+            "weight": "0.40271065",
+            "type": "inhibitory"
+        },
+        {
+            "src": 10,
+            "dst": 18,
+            "weight": "0.48493612",
+            "type": "inhibitory"
+        },
+        {
+            "src": 11,
+            "dst": 18,
+            "weight": "0.10234427",
+            "type": "excitatory"
+        },
+        {
+            "src": 12,
+            "dst": 18,
+            "weight": "0.36398813",
+            "type": "excitatory"
+        },
+        {
+            "src": 13,
+            "dst": 18,
+            "weight": "0.25288874",
+            "type": "inhibitory"
+        },
+        {
+            "src": 14,
+            "dst": 18,
+            "weight": "0.44994313",
+            "type": "inhibitory"
+        },
+        {
+            "src": 15,
+            "dst": 18,
+            "weight": "0.23951456",
+            "type": "excitatory"
+        },
+        {
+            "src": 16,
+            "dst": 18,
+            "weight": "3.0447369",
+            "type": "excitatory"
+        },
+        {
+            "src": 17,
+            "dst": 18,
+            "weight": "1.1276634",
+            "type": "excitatory"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "k" : 8,
+    "alpha" : 2,
+    "topology" : [3, 2, 3],
+    "populations" : [
+        { "type" : { "name" : "spike_source", "values" : ["0.0", "0.0", "0.0", "1.0"] }, "label" : "input_0" },
+        { "type" : { "name" : "spike_source", "values" : ["0.0", "0.0", "1.0", "0.0"] }, "label" : "input_1" }, 
+        { "type" : { "name" : "spike_source", "values" : ["0.0", "1.0", "0.0", "0.0"] }, "label" : "input_2" }, 
+        
+        { "type" : { "name" : "fs_neuron", "bias" : "1.0" }, "label" : "hidden_0_0" },
+        { "type" : { "name" : "fs_neuron", "bias" : "1.0" }, "label" : "hidden_0_1" },
+        
+        { "type" : { "name" : "fs_neuron", "bias" : "0.4" }, "label" : "output_0" },
+        { "type" : { "name" : "fs_neuron", "bias" : "0.3" }, "label" : "output_1" }, 
+        { "type" : { "name" : "fs_neuron", "bias" : "0.5" }, "label" : "output_2" }
+    ],
+    
+    "projections": [
+        { "src" : 0, "dst" : 3, "weight" : "0.1", "type" : "excitatory"},
+        { "src" : 0, "dst" : 4, "weight" : "0.2", "type" : "excitatory"},
+        { "src" : 1, "dst" : 3, "weight" : "0.3", "type" : "excitatory"},
+        { "src" : 1, "dst" : 4, "weight" : "0.1", "type" : "excitatory"},
+        { "src" : 2, "dst" : 3, "weight" : "0.3", "type" : "excitatory"},
+        { "src" : 2, "dst" : 4, "weight" : "0.2", "type" : "excitatory"},
+        { "src" : 3, "dst" : 5, "weight" : "0.2", "type" : "excitatory"},
+        { "src" : 3, "dst" : 6, "weight" : "0.1", "type" : "excitatory"},
+        { "src" : 3, "dst" : 7, "weight" : "0.3", "type" : "excitatory"},
+        { "src" : 4, "dst" : 5, "weight" : "0.2", "type" : "excitatory"},
+        { "src" : 4, "dst" : 6, "weight" : "0.3", "type" : "excitatory"},
+        { "src" : 4, "dst" : 7, "weight" : "0.1", "type" : "excitatory"}
+    ]
+}
